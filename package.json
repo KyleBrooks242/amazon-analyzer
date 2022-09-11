@@ -1,0 +1,17 @@
+{
+  "name": "amazon-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fast-csv/parse": "^4.3.6",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
