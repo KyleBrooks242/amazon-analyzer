@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const app = express();
 app.use(bodyParser.json({limit: '10mb'}));
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5055;
 
 // This displays message that the server running and listening to specified port
 app.listen(port, () => console.log(`Listening on port ${port}`));
